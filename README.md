@@ -1,8 +1,7 @@
 # Nahbereichsüberwachung
-Nahbereichsüberwachung eines Rover-System
+Implementierung einer Nahbereichsüberwachung in ein bestehendes Rover-System
 
-TODO
-code und API wofür. "Nur" Codes das ein System mit einer API versorgt
+Es wurde eine API entwickelt, um in eine bestehende Software integriert werden zu können.
 
 ## Verwendete Technik
 
@@ -14,11 +13,9 @@ code und API wofür. "Nur" Codes das ein System mit einer API versorgt
 - Ansteuerung von 16 Sensoren über einen Bus
 - Einheiten der Messdaten: μs, cm und zoll
 - Reichweite: 3cm bis 6m
-- 
 
-## Algorithmus
-### API
-Diese API ist für eine zukünftige Implementierung in die Main Software nötig
+
+## API
 
 #### - void changeI2Caddress(uint8_t oldAdrdess, uint8_t newAddress);
 notwendige Adressenänderung der Sensoren nach der Lieferung
@@ -43,5 +40,3 @@ jederzeit abgerufen werden.
 Damit letzten Messwerte nicht verloren gehen und weiterhin abgerufen werden
 können. Wenn Task plötzlich abgebrochen werden muss, weil ein Task mit einer höheren
 Priorität gestartet werden muss.
-
-### FlowChart
