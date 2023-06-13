@@ -1,5 +1,5 @@
 # Nahbereichsüberwachung
-Implementierung einer Nahbereichsüberwachung in ein bestehendes Rover-System
+Implementierung einer Nahbereichsüberwachung mit Ultraschallsensoren in ein bestehendes Rover-System
 
 Es wurde eine API entwickelt, um in eine bestehende Software integriert werden zu können.
 
